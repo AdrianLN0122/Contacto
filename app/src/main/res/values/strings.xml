@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Aplicaciones de Android Semana 2</string>
+    <string name="nombrecompleto">Nombre Completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción del Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="confirmar">Confirmar Datos</string>
+    <string name="fecha">Fecha de Nacimiento: </string>
+    <string name="tel">Tel: </string>
+    <string name="Email">Email: </string>
+    <string name="descripciond">Descricpción del Contacto:  </string>
+    <string name="editar">Editar Datos</string>
+
+</resources>

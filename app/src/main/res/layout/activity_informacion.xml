@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InformacionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:gravity="center"
+        android:text="@string/confirmar"
+        android:textSize="@dimen/fuente"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Nombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:textSize="@dimen/fuente" />
+
+    <TextView
+        android:id="@+id/TV_Fecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/fecha"
+        android:textSize="@dimen/fuente" />
+
+    <TextView
+        android:id="@+id/TV_Telefono2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/tel"
+        android:textSize="@dimen/fuente" />
+
+    <TextView
+        android:id="@+id/TV_Email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/Email"
+        android:textSize="@dimen/fuente" />
+
+    <TextView
+        android:id="@+id/TV_Descripcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/descripciond"
+        android:textSize="@dimen/fuente" />
+
+    <Button
+        android:id="@+id/B_Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenID"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/editar"
+        android:textSize="@dimen/fuente" />
+</LinearLayout>

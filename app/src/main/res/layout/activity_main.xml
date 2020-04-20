@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/TV_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID"
+                android:ems="10"
+                android:hint="@string/nombrecompleto"
+                android:inputType="textPersonName" />
+
+            <CalendarView
+                android:id="@+id/CV_Calendario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID" />
+
+            <EditText
+                android:id="@+id/TV_Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID"
+                android:ems="10"
+                android:hint="@string/telefono"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/TV_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/TV_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/descripcion"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/B_Siguiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margenID"
+                android:text="@string/siguiente" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
